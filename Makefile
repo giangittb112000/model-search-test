@@ -10,23 +10,23 @@ NER_RUN_MODE ?= cpu
 
 DC_BASE := docker compose -f docker-compose.yml
 DC_GPU  := $(DC_BASE) -f docker-compose.gpu.yml
+USE_GPU_COMPOSE := false
 
 ifeq ($(NER_TRAIN_MODE),gpu)
-DC_TRAIN := $(DC_GPU)
-else
-DC_TRAIN := $(DC_BASE)
+USE_GPU_COMPOSE := true
 endif
 
 ifeq ($(NER_RUN_MODE),gpu)
-DC_PREDICT := $(DC_GPU)
-else
-DC_PREDICT := $(DC_BASE)
+USE_GPU_COMPOSE := true
 endif
 
-DC  := $(DC_BASE)
-RUN := $(DC_BASE) exec nlp
-RUN_TRAIN := $(DC_TRAIN) exec nlp
-RUN_PREDICT := $(DC_PREDICT) exec nlp
+ifeq ($(USE_GPU_COMPOSE),true)
+DC := $(DC_GPU)
+else
+DC := $(DC_BASE)
+endif
+
+RUN := $(DC) exec nlp
 
 Q ?= mua iphone 15 giá rẻ
 
@@ -52,16 +52,16 @@ env-init-gpu:
 env-init: env-init-cpu
 
 build: require-env
-	$(DC) build
+	$(DC_BASE) build
 
 up: require-env
 	$(DC) up -d
 
 up-train: require-env
-	$(DC_TRAIN) up -d
+	$(DC) up -d
 
 up-predict: require-env
-	$(DC_PREDICT) up -d
+	$(DC) up -d
 
 down:
 	$(DC) down
@@ -73,19 +73,19 @@ init-config: require-env up
 	$(RUN) python -m spacy init config config/config.cfg --lang vi --pipeline ner --optimize efficiency --force
 
 train: require-env up-train
-	$(RUN_TRAIN) python src/train.py
+	$(RUN) python src/train.py
 
 train-gpu: require-env
 	@grep -qE '^NER_TRAIN_MODE=gpu' .env || ( \
 		echo "Đặt NER_TRAIN_MODE=gpu trong .env (hoặc make env-init-gpu)"; exit 1)
-	$(DC_TRAIN) up -d
-	$(RUN_TRAIN) python src/train.py
+	$(DC) up -d
+	$(RUN) python src/train.py
 
 predict: require-env up-predict
-	$(RUN_PREDICT) python src/predict.py "$(Q)"
+	$(RUN) python src/predict.py "$(Q)"
 
 test-predict: require-env up-predict
-	$(RUN_PREDICT) python src/test_predict.py
+	$(RUN) python src/test_predict.py
 
 shell: require-env up
 	$(RUN) bash
