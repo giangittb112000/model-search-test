@@ -14,12 +14,13 @@ RUN apt-get update \
 WORKDIR /app
 
 COPY requirements.txt ./
-RUN python -m pip install -U pip setuptools wheel
-RUN pip install -r requirements.txt
-RUN python -m pip check
+RUN python -m pip install -U pip setuptools wheel \
+    && pip install -r requirements.txt \
+    && python -m pip check \
+    && python -c "import spacy, cupy; print('spaCy', spacy.__version__, '| cupy', cupy.__version__)"
 
 COPY config ./config
 COPY data ./data
 COPY src ./src
 
-CMD ["python", "-c", "import spacy; print('spaCy', spacy.__version__, 'ready')"]
+CMD ["python", "-c", "import spacy, cupy; print('spaCy', spacy.__version__, 'cupy', cupy.__version__, 'ready')"]

@@ -1,5 +1,6 @@
-# Thư viện: spacy (train/predict), click (CLI spaCy)
-# pyvi có trong image nhưng preprocess dùng use_pyvi=false (tokenize theo space)
-spacy[cuda12x]>=3.7,<4.0
+# Runtime cho container GPU (image base = nvidia/cuda:12.4-runtime)
+# cupy-cuda12x = bắt buộc để spacy chạy được --gpu-id >= 0
+spacy>=3.7,<4.0
+cupy-cuda12x>=12,<14
 click>=8.0
 pyvi>=0.1.1
