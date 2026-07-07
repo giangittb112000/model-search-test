@@ -1,6 +1,10 @@
 # Runtime cho container GPU (image base = nvidia/cuda:12.4-runtime)
-# cupy-cuda12x = bắt buộc để spacy chạy được --gpu-id >= 0
+# - cupy-cuda12x: bắt buộc cho spacy --gpu-id >= 0
+# - nvidia-cuda-runtime-cu12: chứa CUDA headers (cuda_fp16.h, ...) cho CuPy NVRTC
+#   JIT compile — nếu thiếu sẽ báo "cannot open source file cuda_fp16.h".
+#   Docs: https://docs.cupy.dev/en/stable/install.html#cupy-always-raises-nvrtc-error-compilation-6
 spacy>=3.7,<4.0
 cupy-cuda12x>=12,<14
+nvidia-cuda-runtime-cu12==12.4.*
 click>=8.0
 pyvi>=0.1.1

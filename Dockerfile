@@ -17,7 +17,7 @@ COPY requirements.txt ./
 RUN python -m pip install -U pip setuptools wheel \
     && pip install -r requirements.txt \
     && python -m pip check \
-    && python -c "import spacy, cupy; print('spaCy', spacy.__version__, '| cupy', cupy.__version__)"
+    && python -c "import spacy, cupy; print('spaCy', spacy.__version__, '| cupy', cupy.__version__); cupy.show_config()"
 
 COPY config ./config
 COPY data ./data

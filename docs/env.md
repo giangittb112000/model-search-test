@@ -85,8 +85,10 @@ NER_GPU_ALLOCATOR=null
 
 Stack Docker hiện tại: **NVIDIA + CUDA**. AMD/Intel/Mac GPU → giữ `NER_TRAIN_MODE=cpu`, `NER_RUN_MODE=cpu`.
 
-Image mặc định dùng NVIDIA CUDA runtime và cài GPU dependencies qua `spacy[cuda12x]`, để spaCy/Thinc tự kéo đúng CuPy version tương thích khi `.env` bật `NER_TRAIN_MODE=gpu`.
+Image mặc định dùng `nvidia/cuda:12.4.1-runtime-ubuntu22.04` + `cupy-cuda12x` + `nvidia-cuda-runtime-cu12` (chứa CUDA headers cho CuPy NVRTC JIT — không có sẽ báo `cannot open source file "cuda_fp16.h"`).
 
 ## Docker GPU
 
 `NER_TRAIN_MODE=gpu` hoặc `NER_RUN_MODE=gpu` → Makefile merge `docker-compose.gpu.yml`. Cần [nvidia-container-toolkit](https://docs.nvidia.com/datacenter/cloud-native/container-toolkit/install-guide.html).
+
+Verify sau `make up`: `make check-gpu` — script sẽ trigger NVRTC compile một kernel nhỏ để phát hiện thiếu headers ngay.

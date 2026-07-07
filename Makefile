@@ -89,7 +89,14 @@ check-gpu: require-env
 	$(MAKE) --no-print-directory _check_gpu_run
 
 _check_gpu_run: up
-	$(RUN) python -c "import spacy, cupy, thinc.compat as c; spacy.require_gpu(0); print('spaCy', spacy.__version__); print('CuPy', cupy.__version__); print('has_cupy', c.has_cupy); print('has_gpu', c.has_gpu); print('CUDA devices', cupy.cuda.runtime.getDeviceCount())"
+	$(RUN) python -c "\
+import spacy, cupy, thinc.compat as c; \
+spacy.require_gpu(0); \
+print('spaCy', spacy.__version__, '| CuPy', cupy.__version__); \
+print('has_cupy', c.has_cupy, '| has_gpu', c.has_gpu, '| devices', cupy.cuda.runtime.getDeviceCount()); \
+x = cupy.array([1., 2., 3.], dtype=cupy.float32); \
+y = (x + x).sum().item(); \
+print('NVRTC compile OK — kernel result:', y)"
 
 shell: require-env up
 	$(RUN) bash
