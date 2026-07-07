@@ -30,7 +30,7 @@ RUN := $(DC) exec nlp
 
 Q ?= mua iphone 15 giá rẻ
 
-.PHONY: help require-env build up up-train up-predict down preprocess init-config train train-gpu predict test-predict shell clean env-init env-init-cpu env-init-gpu
+.PHONY: help require-env build up up-train up-predict down preprocess init-config train train-gpu predict test-predict check-gpu shell clean env-init env-init-cpu env-init-gpu
 
 require-env:
 	@test -f .env || ( \
@@ -40,7 +40,7 @@ require-env:
 help:
 	@echo "Targets (cần .env — 4 biến: docs/env.md):"
 	@echo "  env-init-cpu / env-init-gpu"
-	@echo "  build | up | down | preprocess | train | predict | test-predict | shell | clean"
+	@echo "  build | up | down | preprocess | train | predict | test-predict | check-gpu | shell | clean"
 	@echo "  train-gpu      - train khi NER_TRAIN_MODE=gpu trong .env"
 
 env-init-cpu:
@@ -53,6 +53,7 @@ env-init: env-init-cpu
 
 build: require-env
 	$(DC_BASE) build
+	$(DC) up -d --force-recreate
 
 up: require-env
 	$(DC) up -d
@@ -86,6 +87,9 @@ predict: require-env up-predict
 
 test-predict: require-env up-predict
 	$(RUN) python src/test_predict.py
+
+check-gpu: require-env up
+	$(RUN) python -c "import cupy; print('CuPy', cupy.__version__); print('CUDA devices', cupy.cuda.runtime.getDeviceCount())"
 
 shell: require-env up
 	$(RUN) bash
