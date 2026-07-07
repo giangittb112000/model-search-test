@@ -50,7 +50,7 @@ make help
 make shell
 make clean
 make down
-make train-gpu
+make check-gpu
 ```
 
 ---
