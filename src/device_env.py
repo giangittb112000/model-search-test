@@ -29,14 +29,14 @@ def _parse_gpu_allocator(train_mode: DeviceMode) -> GpuAllocator:
     """spaCy [system].gpu_allocator — chỉ có ý nghĩa khi train trên GPU."""
     if train_mode == "cpu":
         return "null"
-    raw = (os.environ.get("NER_GPU_ALLOCATOR") or "auto").strip().lower()
+    raw = (os.environ.get("NER_GPU_ALLOCATOR") or "null").strip().lower()
     if raw in {"", "auto"}:
-        return "pytorch"
+        return "null"
     if raw in {"null", "none"}:
         return "null"
     if raw in {"pytorch", "tensorflow"}:
         return raw  # type: ignore[return-value]
-    return "pytorch"
+    return "null"
 
 
 def train_output_dir(mode: DeviceMode) -> Path:
