@@ -1,9 +1,9 @@
-# Overlay GPU — merge khi NER_TRAIN_MODE=gpu (train) hoặc NER_RUN_MODE=gpu (predict)
-# Cần: nvidia-container-toolkit
+# Overlay GPU — Makefile merge khi NER_TRAIN_MODE=gpu hoặc NER_RUN_MODE=gpu
+# Cần: nvidia-container-toolkit trên host (host có NVIDIA driver + `nvidia-smi` chạy được)
+# Docs: https://docs.docker.com/compose/how-tos/gpu-support/
 
 services:
   nlp:
-    gpus: all
     environment:
       - NVIDIA_VISIBLE_DEVICES=${NER_GPU_ID:-0}
       - NVIDIA_DRIVER_CAPABILITIES=compute,utility

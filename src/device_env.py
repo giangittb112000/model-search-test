@@ -80,18 +80,37 @@ def get_run_settings() -> RunSettings:
     )
 
 
-def train_spacy_args(settings: TrainSettings) -> list[str]:
+def resolve_gpu_allocator(settings: TrainSettings) -> tuple[GpuAllocator, str | None]:
     """
-  spaCy train:
-    --gpu-id        chọn CPU (-1) hoặc card GPU (0, 1, …)
-    --system.gpu_allocator  cách CuPy chia bộ nhớ GPU (chỉ khi train GPU)
+    Chọn `gpu_allocator` cuối cùng. Nếu user chọn pytorch/tensorflow nhưng
+    image không có framework tương ứng → fallback null + trả về lý do warn.
+    """
+    allocator = settings.gpu_allocator
+    if allocator == "pytorch":
+        try:
+            import torch  # noqa: F401
+        except ImportError:
+            return "null", "PyTorch không có trong image → fallback null"
+    if allocator == "tensorflow":
+        try:
+            import tensorflow  # noqa: F401
+        except ImportError:
+            return "null", "TensorFlow không có trong image → fallback null"
+    return allocator, None
+
+
+def train_spacy_args(settings: TrainSettings, allocator: GpuAllocator | None = None) -> list[str]:
+    """
+    spaCy train:
+      --gpu-id                 CPU (-1) hoặc card GPU (0, 1, …)
+      --system.gpu_allocator   cách CuPy chia bộ nhớ GPU (chỉ khi train GPU)
     """
     gpu_id = str(settings.gpu_id) if settings.mode == "gpu" else "-1"
     return [
         "--gpu-id",
         gpu_id,
         "--system.gpu_allocator",
-        settings.gpu_allocator,
+        allocator or settings.gpu_allocator,
     ]
 
 

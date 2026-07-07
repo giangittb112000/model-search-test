@@ -6,7 +6,12 @@ import time
 from datetime import datetime
 from pathlib import Path
 
-from device_env import get_train_settings, train_output_dir, train_spacy_args
+from device_env import (
+    get_train_settings,
+    resolve_gpu_allocator,
+    train_output_dir,
+    train_spacy_args,
+)
 
 CONFIG = "config/config.cfg"
 TRAIN_PATH = "data/train.spacy"
@@ -41,20 +46,23 @@ def main() -> int:
 
     settings = get_train_settings()
     output_dir = train_output_dir(settings.mode)
+    allocator, warn = resolve_gpu_allocator(settings)
+    if warn:
+        print(f"[WARN] {warn}")
 
     _print_block(
         "TRAIN",
         [
             ("NER_TRAIN_MODE", settings.mode.upper()),
             ("NER_GPU_ID", str(settings.gpu_id)),
-            ("NER_GPU_ALLOCATOR", settings.gpu_allocator),
+            ("NER_GPU_ALLOCATOR", allocator),
             ("Output", f"{output_dir}/model-best"),
         ],
     )
 
     extra_args = list(sys.argv[1:])
     if not any(arg == "--gpu-id" for arg in extra_args):
-        extra_args = train_spacy_args(settings) + extra_args
+        extra_args = train_spacy_args(settings, allocator) + extra_args
 
     cmd = [
         sys.executable,

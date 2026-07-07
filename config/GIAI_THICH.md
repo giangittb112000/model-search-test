@@ -2,7 +2,7 @@
 
 File `config.cfg` là cài đặt cho `make train`. MVP thường **không cần sửa**.
 
-CPU/GPU → [docs/env.md](../docs/env.md) (3 biến).
+CPU/GPU → [docs/env.md](../docs/env.md) (4 biến).
 
 ---
 

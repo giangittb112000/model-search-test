@@ -140,6 +140,6 @@ Giữ ~80% train / 20% dev. Không annotate giá / stopword — thuộc tầng l
 
 ## Tài liệu
 
-- [docs/env.md](docs/env.md) — biến `.env` (3 biến)
+- [docs/env.md](docs/env.md) — biến `.env` (4 biến)
 - [docs/training_data_spec.md](docs/training_data_spec.md) — đặc tả training data
 - [config/GIAI_THICH.md](config/GIAI_THICH.md) — config train

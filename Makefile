@@ -30,7 +30,7 @@ RUN := $(DC) exec nlp
 
 Q ?= mua iphone 15 giá rẻ
 
-.PHONY: help require-env env-init env-init-cpu env-init-gpu build up down preprocess train predict test-predict check-gpu shell clean
+.PHONY: help require-env env-init env-init-cpu env-init-gpu build up down preprocess train predict test-predict check-gpu _check_gpu_run shell clean
 
 require-env:
 	@test -f .env || ( \
@@ -39,9 +39,18 @@ require-env:
 
 help:
 	@echo "Targets (cần .env — 4 biến: docs/env.md):"
-	@echo "  env-init-cpu / env-init-gpu"
-	@echo "  build | up | down | preprocess | train | predict | test-predict"
-	@echo "  check-gpu | shell | clean"
+	@echo "  env-init-cpu / env-init-gpu   tạo .env từ mẫu"
+	@echo "  build                         build image (COPY src/data/config vào image)"
+	@echo "  up / down                     start/stop container (giữ chạy nền)"
+	@echo "  preprocess                    data/*.py -> data/*.spacy trong container"
+	@echo "  train                         train (đọc NER_* trong .env)"
+	@echo "  predict Q='...'               predict 1 câu"
+	@echo "  test-predict                  predict TEST_QUERIES"
+	@echo "  check-gpu                     verify CuPy + GPU trong container"
+	@echo "  shell / clean"
+	@echo ""
+	@echo "Ghi chú: source/data được COPY vào image lúc build."
+	@echo "  Đổi code hoặc data → 'make build' rồi 'make down && make up'."
 
 env-init-cpu:
 	cp .env.cpu.example .env
@@ -72,7 +81,14 @@ predict: require-env up
 test-predict: require-env up
 	$(RUN) python src/test_predict.py
 
-check-gpu: require-env up
+check-gpu: require-env
+	@if [ "$(NER_TRAIN_MODE)" != "gpu" ] && [ "$(NER_RUN_MODE)" != "gpu" ]; then \
+		echo "[WARN] .env đang CPU mode — container không bind GPU, check-gpu sẽ fail."; \
+		echo "        Đặt NER_TRAIN_MODE=gpu hoặc NER_RUN_MODE=gpu rồi 'make up' lại."; \
+	fi
+	$(MAKE) --no-print-directory _check_gpu_run
+
+_check_gpu_run: up
 	$(RUN) python -c "import spacy, cupy, thinc.compat as c; spacy.require_gpu(0); print('spaCy', spacy.__version__); print('CuPy', cupy.__version__); print('has_cupy', c.has_cupy); print('has_gpu', c.has_gpu); print('CUDA devices', cupy.cuda.runtime.getDeviceCount())"
 
 shell: require-env up

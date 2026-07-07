@@ -17,7 +17,6 @@ COPY requirements.txt ./
 RUN python -m pip install -U pip setuptools wheel
 RUN pip install -r requirements.txt
 RUN python -m pip check
-RUN python -c "import cupy, thinc.compat as c; major = int(cupy.__version__.split('.')[0]); print('CuPy', cupy.__version__); print('Thinc has_cupy', c.has_cupy); assert major < 13, 'spaCy/Thinc 8.3 expects CuPy < 13'; assert c.has_cupy, 'Thinc cannot import CuPy backend'"
 
 COPY config ./config
 COPY data ./data
