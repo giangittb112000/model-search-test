@@ -11,4 +11,8 @@ WORKDIR /app
 COPY requirements.txt ./
 RUN pip install -r requirements.txt
 
+COPY config ./config
+COPY data ./data
+COPY src ./src
+
 CMD ["python", "-c", "import spacy; print('spaCy', spacy.__version__, 'ready')"]

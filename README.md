@@ -20,7 +20,8 @@ make predict Q="laptop dell 16gb"
 make test-predict
 ```
 
-Sau train, model ở `models/cpu/` hoặc `models/gpu/` (theo `NER_TRAIN_MODE` trong `.env`).
+Source/config/data được copy vào Docker image khi `make build`. Không bind mount project vào container.
+Sau train, model nằm trong filesystem của container đang chạy tại `models/cpu/` hoặc `models/gpu/` (theo `NER_TRAIN_MODE` trong `.env`).
 
 Sửa data rồi chạy lại:
 
@@ -48,6 +49,7 @@ Chi tiết: **[docs/env.md](docs/env.md)**.
 make help
 make shell
 make clean
+make down
 make train-gpu
 ```
 
@@ -71,7 +73,7 @@ make train-gpu
 | `data/train_data.py` | Thêm câu train (`_make()`) |
 | `data/dev_data.py` | Câu dev — không trùng train |
 | `data/test_data.py` | 25 query thử sau train |
-| `models/cpu/`, `models/gpu/` | Model sau train — dùng `model-best/` |
+| `models/cpu/`, `models/gpu/` | Model sau train trong container — dùng `model-best/` |
 | `config/config.cfg` | Cài đặt train — [config/GIAI_THICH.md](config/GIAI_THICH.md) |
 | `docs/training_data_spec.md` | Đặc tả nhãn và pattern data |
 | `docs/env.md` | Biến `.env` + `docker-compose.gpu.yml` |
@@ -129,7 +131,7 @@ def parse(query: str):
 ## Thêm data
 
 1. Thêm câu vào `train_data.py` và `dev_data.py` (dùng `_make()`).
-2. `make preprocess && make train`
+2. `make build && make preprocess && make train`
 3. `make test-predict`
 
 Giữ ~80% train / 20% dev. Không annotate giá / stopword — thuộc tầng logic.

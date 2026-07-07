@@ -3,11 +3,9 @@ services:
     build: .
     image: search-model-nlp:latest
     working_dir: /app
-    volumes:
-      - ./:/app
+    command: ["sleep", "infinity"]
     env_file:
       - path: .env
         required: true
     environment:
       - PYTHONPATH=/app
-    user: "${UID:-1000}:${GID:-1000}"

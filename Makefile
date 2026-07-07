@@ -8,27 +8,29 @@ endif
 NER_TRAIN_MODE ?= cpu
 NER_RUN_MODE ?= cpu
 
-DC_BASE := UID=$$(id -u) GID=$$(id -g) docker compose -f docker-compose.yml
+DC_BASE := docker compose -f docker-compose.yml
 DC_GPU  := $(DC_BASE) -f docker-compose.gpu.yml
 
 ifeq ($(NER_TRAIN_MODE),gpu)
-RUN_TRAIN := $(DC_GPU) run --rm
+DC_TRAIN := $(DC_GPU)
 else
-RUN_TRAIN := $(DC_BASE) run --rm
+DC_TRAIN := $(DC_BASE)
 endif
 
 ifeq ($(NER_RUN_MODE),gpu)
-RUN_PREDICT := $(DC_GPU) run --rm
+DC_PREDICT := $(DC_GPU)
 else
-RUN_PREDICT := $(DC_BASE) run --rm
+DC_PREDICT := $(DC_BASE)
 endif
 
 DC  := $(DC_BASE)
-RUN := $(DC_BASE) run --rm
+RUN := $(DC_BASE) exec nlp
+RUN_TRAIN := $(DC_TRAIN) exec nlp
+RUN_PREDICT := $(DC_PREDICT) exec nlp
 
 Q ?= mua iphone 15 giá rẻ
 
-.PHONY: help require-env build preprocess init-config train train-gpu predict test-predict shell clean env-init env-init-cpu env-init-gpu
+.PHONY: help require-env build up up-train up-predict down preprocess init-config train train-gpu predict test-predict shell clean env-init env-init-cpu env-init-gpu
 
 require-env:
 	@test -f .env || ( \
@@ -38,7 +40,7 @@ require-env:
 help:
 	@echo "Targets (cần .env — 4 biến: docs/env.md):"
 	@echo "  env-init-cpu / env-init-gpu"
-	@echo "  build | preprocess | train | predict | test-predict | shell | clean"
+	@echo "  build | up | down | preprocess | train | predict | test-predict | shell | clean"
 	@echo "  train-gpu      - train khi NER_TRAIN_MODE=gpu trong .env"
 
 env-init-cpu:
@@ -52,28 +54,41 @@ env-init: env-init-cpu
 build: require-env
 	$(DC) build
 
-preprocess: require-env
-	$(RUN) nlp python src/preprocess.py
+up: require-env
+	$(DC) up -d
 
-init-config: require-env
-	$(RUN) nlp python -m spacy init config config/config.cfg --lang vi --pipeline ner --optimize efficiency --force
+up-train: require-env
+	$(DC_TRAIN) up -d
 
-train: require-env
-	$(RUN_TRAIN) nlp python src/train.py
+up-predict: require-env
+	$(DC_PREDICT) up -d
+
+down:
+	$(DC) down
+
+preprocess: require-env up
+	$(RUN) python src/preprocess.py
+
+init-config: require-env up
+	$(RUN) python -m spacy init config config/config.cfg --lang vi --pipeline ner --optimize efficiency --force
+
+train: require-env up-train
+	$(RUN_TRAIN) python src/train.py
 
 train-gpu: require-env
 	@grep -qE '^NER_TRAIN_MODE=gpu' .env || ( \
 		echo "Đặt NER_TRAIN_MODE=gpu trong .env (hoặc make env-init-gpu)"; exit 1)
-	$(RUN_TRAIN) nlp python src/train.py
+	$(DC_TRAIN) up -d
+	$(RUN_TRAIN) python src/train.py
 
-predict: require-env
-	$(RUN_PREDICT) nlp python src/predict.py "$(Q)"
+predict: require-env up-predict
+	$(RUN_PREDICT) python src/predict.py "$(Q)"
 
-test-predict: require-env
-	$(RUN_PREDICT) nlp python src/test_predict.py
+test-predict: require-env up-predict
+	$(RUN_PREDICT) python src/test_predict.py
 
-shell: require-env
-	$(RUN) nlp bash
+shell: require-env up
+	$(RUN) bash
 
-clean:
-	rm -rf models data/train.spacy data/dev.spacy
+clean: require-env up
+	$(RUN) rm -rf models data/train.spacy data/dev.spacy
