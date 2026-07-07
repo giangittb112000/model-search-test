@@ -1,0 +1,502 @@
+[
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "204",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "iPad 9.7"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "1743",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "TCL"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "1967",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 2,
+          "name" : "Điện lạnh"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "1974",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Máy giặt"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "2289",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Máy rửa bát độc lập"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "72",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Galaxy Tab 10.1"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "51",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "iPad mini"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "50",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "iPad 2 / new iPad / iPad 4"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "1703",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Ghế công thái học E-dra"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "1724",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Máy ép chậm"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "2010",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "reMarkable"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "2048",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Máy xay thịt"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "2051",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Máy xay thịt"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "2306",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Máy lọc nước"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "2374",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Masstel cũ"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "2471",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Nông nghiệp/Phun thuốc"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "2503",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Chân đế máy giặt"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "2297",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Tecno"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "2181",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Dịch vụ bảo hành CareS"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "1404",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Iwalk"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "1399",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "FL-Esports"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "1397",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Elecom"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "1396",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Zadez"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "1379",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "XO"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "1371",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Corsair"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "1368",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Native Union"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "1358",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Laut"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "1354",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Simtop"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "1350",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Phụ kiện Mazer"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "1348",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Genshai"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "1347",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Phụ kiện Feeltek"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "1342",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Phụ kiện Remax"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "1341",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Phụ kiện Titan"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "1308",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Titan"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "1109",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Đồ chơi trẻ em"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "345",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Xả hàng"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "287",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Phụ kiện iPhone"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "285",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Phụ kiện iPad"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "229",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Phụ kiện ASUS"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "126",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Đế sạc (Dock)"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "121",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Phụ kiện HTC"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "115",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Phụ kiện iPhone X"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "71",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Galaxy Tab 7.7"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "60",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Sale 1 ngày duy nhất 199k"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "53",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "HTC"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "48",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Phụ kiện JOYROOM"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "1889",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "OFF"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "651",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Pocophone"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "450",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Android"
+        }
+      },
+      {
+        "_index" : "prod.v2.ecom.product.category",
+        "_type" : "_doc",
+        "_id" : "1970",
+        "_score" : 1.0,
+        "_source" : {
+          "level" : 3,
+          "name" : "Máy lạnh Tủ đứng"
+        }
+      }
+    ]

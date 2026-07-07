@@ -1,0 +1,16 @@
+# Overlay GPU — merge khi NER_TRAIN_MODE=gpu (train) hoặc NER_RUN_MODE=gpu (predict)
+# Cần: nvidia-container-toolkit
+
+services:
+  nlp:
+    gpus: all
+    environment:
+      - NVIDIA_VISIBLE_DEVICES=${NER_GPU_ID:-0}
+      - NVIDIA_DRIVER_CAPABILITIES=compute,utility
+    deploy:
+      resources:
+        reservations:
+          devices:
+            - driver: nvidia
+              count: all
+              capabilities: [gpu]

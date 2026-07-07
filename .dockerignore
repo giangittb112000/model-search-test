@@ -1,0 +1,11 @@
+.git
+.gitignore
+.DS_Store
+__pycache__
+*.pyc
+*.pyo
+.venv
+venv
+models
+data/*.spacy
+README.md

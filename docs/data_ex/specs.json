@@ -1,0 +1,2208 @@
+[
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "52778",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Anker",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Anker",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "52960",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Anker",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Anker",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "14256",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Anker",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Anker",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "14257",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Anker",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Anker",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "14258",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Anker",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Anker",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "32988",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Cổng kết nối",
+          "value": [
+            {
+              "label": "Cổng giao tiếp",
+              "value": "1 Cổng USB-C",
+              "key": "ports_slots",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Kích thước & Trọng lượng",
+          "value": [
+            {
+              "label": "Kích thước",
+              "value": "50.8 x 30.5 x 40.6 mm",
+              "key": "dimensions",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Thông số kỹ thuật",
+          "value": [
+            {
+              "label": "Dòng điện vào",
+              "value": "AC 100-240V-0.7A 50-60Hz",
+              "key": "electric_input",
+              "label_url": null
+            },
+            {
+              "label": "Dòng điện ra",
+              "value": "5.0V=4.8A",
+              "key": "electric_output",
+              "label_url": null
+            },
+            {
+              "label": "Công suất",
+              "value": "65W",
+              "key": "cong_suat_loa",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Tiện ích",
+          "value": [
+            {
+              "label": "Tính năng khác",
+              "value": "Kích thước củ sạc nhỏ gọn <br> Chế độ an toàn",
+              "key": "tinh_nang_khac",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Anker",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Cổng giao tiếp",
+          "value": "1 Cổng USB-C",
+          "key": "ports_slots",
+          "label_url": null
+        },
+        {
+          "label": "Dòng điện vào",
+          "value": "AC 100-240V-0.7A 50-60Hz",
+          "key": "electric_input",
+          "label_url": null
+        },
+        {
+          "label": "Dòng điện ra",
+          "value": "5.0V=4.8A",
+          "key": "electric_output",
+          "label_url": null
+        },
+        {
+          "label": "Công suất",
+          "value": "65W",
+          "key": "cong_suat_loa",
+          "label_url": null
+        },
+        {
+          "label": "Tính năng khác",
+          "value": "Kích thước củ sạc nhỏ gọn <br> Chế độ an toàn",
+          "key": "tinh_nang_khac",
+          "label_url": null
+        },
+        {
+          "label": "Hãng sản xuất",
+          "value": "Anker",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "16567",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông số khác",
+          "value": [
+            {
+              "label": "Dòng sản phẩm",
+              "value": "iPad Air | Pro 10.5 (2017)",
+              "key": "for_product",
+              "label_url": null
+            },
+            {
+              "label": "Phân loại ốp",
+              "value": "Bao da",
+              "key": "tinh_nang",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "ESR",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Dòng sản phẩm",
+          "value": "iPad Air | Pro 10.5 (2017)",
+          "key": "for_product",
+          "label_url": null
+        },
+        {
+          "label": "Phân loại ốp",
+          "value": "Bao da",
+          "key": "tinh_nang",
+          "label_url": null
+        },
+        {
+          "label": "Hãng sản xuất",
+          "value": "ESR",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "16571",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông số khác",
+          "value": [
+            {
+              "label": "Dòng sản phẩm",
+              "value": "iPad mini 5 | 4 | 3",
+              "key": "for_product",
+              "label_url": null
+            },
+            {
+              "label": "Phân loại ốp",
+              "value": "Bao da",
+              "key": "tinh_nang",
+              "label_url": null
+            },
+            {
+              "label": "Tính năng",
+              "value": "Có chân đứng",
+              "key": "tinh_nang_dac_biet",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "ESR",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Dòng sản phẩm",
+          "value": "iPad mini 5 | 4 | 3",
+          "key": "for_product",
+          "label_url": null
+        },
+        {
+          "label": "Phân loại ốp",
+          "value": "Bao da",
+          "key": "tinh_nang",
+          "label_url": null
+        },
+        {
+          "label": "Tính năng",
+          "value": "Có chân đứng",
+          "key": "tinh_nang_dac_biet",
+          "label_url": null
+        },
+        {
+          "label": "Hãng sản xuất",
+          "value": "ESR",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "16580",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông số khác",
+          "value": [
+            {
+              "label": "Dòng sản phẩm",
+              "value": "iPad Air 9.7 | Pro 9.7",
+              "key": "for_product",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "KST",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Dòng sản phẩm",
+          "value": "iPad Air 9.7 | Pro 9.7",
+          "key": "for_product",
+          "label_url": null
+        },
+        {
+          "label": "Hãng sản xuất",
+          "value": "KST",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "16586",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông số khác",
+          "value": [
+            {
+              "label": "Dòng sản phẩm",
+              "value": "iPad mini 5 | 4 | 3",
+              "key": "for_product",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "KST",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Dòng sản phẩm",
+          "value": "iPad mini 5 | 4 | 3",
+          "key": "for_product",
+          "label_url": null
+        },
+        {
+          "label": "Hãng sản xuất",
+          "value": "KST",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "8900",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Hãng khác",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Hãng khác",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "8906",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Samsung Chính hãng",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Samsung Chính hãng",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "2068",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Cổng kết nối",
+          "value": [
+            {
+              "label": "Cổng giao tiếp",
+              "value": "USB",
+              "key": "ports_slots",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Thông số kỹ thuật",
+          "value": [
+            {
+              "label": "Công suất",
+              "value": "1A",
+              "key": "cong_suat_loa",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Tiện ích",
+          "value": [
+            {
+              "label": "Tính năng khác",
+              "value": "Cung cấp dòng điện sạc thiết bị",
+              "key": "tinh_nang_khac",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Mipow",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Cổng giao tiếp",
+          "value": "USB",
+          "key": "ports_slots",
+          "label_url": null
+        },
+        {
+          "label": "Công suất",
+          "value": "1A",
+          "key": "cong_suat_loa",
+          "label_url": null
+        },
+        {
+          "label": "Tính năng khác",
+          "value": "Cung cấp dòng điện sạc thiết bị",
+          "key": "tinh_nang_khac",
+          "label_url": null
+        },
+        {
+          "label": "Hãng sản xuất",
+          "value": "Mipow",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "2146",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Kích thước & Trọng lượng",
+          "value": [
+            {
+              "label": "Kích thước",
+              "value": "135 x 77 x 19 mm",
+              "key": "dimensions",
+              "label_url": null
+            },
+            {
+              "label": "Trọng lượng",
+              "value": "351 g",
+              "key": "product_weight",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Mipow",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Mipow",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "24516",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông số khác",
+          "value": [
+            {
+              "label": "Dòng sản phẩm",
+              "value": "iPad Air | Pro 10.5 (2017)",
+              "key": "for_product",
+              "label_url": null
+            },
+            {
+              "label": "Phân loại ốp",
+              "value": "Bao da",
+              "key": "tinh_nang",
+              "label_url": null
+            },
+            {
+              "label": "Tính năng",
+              "value": "Có chân đứng",
+              "key": "tinh_nang_dac_biet",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "ESR",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Dòng sản phẩm",
+          "value": "iPad Air | Pro 10.5 (2017)",
+          "key": "for_product",
+          "label_url": null
+        },
+        {
+          "label": "Phân loại ốp",
+          "value": "Bao da",
+          "key": "tinh_nang",
+          "label_url": null
+        },
+        {
+          "label": "Tính năng",
+          "value": "Có chân đứng",
+          "key": "tinh_nang_dac_biet",
+          "label_url": null
+        },
+        {
+          "label": "Hãng sản xuất",
+          "value": "ESR",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "24859",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông số khác",
+          "value": [
+            {
+              "label": "Dòng sản phẩm",
+              "value": "iPad Pro 11 | iPad Air 10.9",
+              "key": "for_product",
+              "label_url": null
+            },
+            {
+              "label": "Phân loại ốp",
+              "value": "Bao da",
+              "key": "tinh_nang",
+              "label_url": null
+            },
+            {
+              "label": "Tính năng",
+              "value": "Có chân đứng",
+              "key": "tinh_nang_dac_biet",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "ESR",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Dòng sản phẩm",
+          "value": "iPad Pro 11 | iPad Air 10.9",
+          "key": "for_product",
+          "label_url": null
+        },
+        {
+          "label": "Phân loại ốp",
+          "value": "Bao da",
+          "key": "tinh_nang",
+          "label_url": null
+        },
+        {
+          "label": "Tính năng",
+          "value": "Có chân đứng",
+          "key": "tinh_nang_dac_biet",
+          "label_url": null
+        },
+        {
+          "label": "Hãng sản xuất",
+          "value": "ESR",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "16568",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông số khác",
+          "value": [
+            {
+              "label": "Dòng sản phẩm",
+              "value": "iPad Air | Pro 10.5 (2017)",
+              "key": "for_product",
+              "label_url": null
+            },
+            {
+              "label": "Phân loại ốp",
+              "value": "Bao da",
+              "key": "tinh_nang",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "ESR",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Dòng sản phẩm",
+          "value": "iPad Air | Pro 10.5 (2017)",
+          "key": "for_product",
+          "label_url": null
+        },
+        {
+          "label": "Phân loại ốp",
+          "value": "Bao da",
+          "key": "tinh_nang",
+          "label_url": null
+        },
+        {
+          "label": "Hãng sản xuất",
+          "value": "ESR",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "16569",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông số khác",
+          "value": [
+            {
+              "label": "Dòng sản phẩm",
+              "value": "iPad Air | Pro 10.5 (2017)",
+              "key": "for_product",
+              "label_url": null
+            },
+            {
+              "label": "Phân loại ốp",
+              "value": "Bao da",
+              "key": "tinh_nang",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "ESR",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Dòng sản phẩm",
+          "value": "iPad Air | Pro 10.5 (2017)",
+          "key": "for_product",
+          "label_url": null
+        },
+        {
+          "label": "Phân loại ốp",
+          "value": "Bao da",
+          "key": "tinh_nang",
+          "label_url": null
+        },
+        {
+          "label": "Hãng sản xuất",
+          "value": "ESR",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "16570",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông số khác",
+          "value": [
+            {
+              "label": "Dòng sản phẩm",
+              "value": "iPad Air | Pro 10.5 (2017)",
+              "key": "for_product",
+              "label_url": null
+            },
+            {
+              "label": "Phân loại ốp",
+              "value": "Bao da",
+              "key": "tinh_nang",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "ESR",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Dòng sản phẩm",
+          "value": "iPad Air | Pro 10.5 (2017)",
+          "key": "for_product",
+          "label_url": null
+        },
+        {
+          "label": "Phân loại ốp",
+          "value": "Bao da",
+          "key": "tinh_nang",
+          "label_url": null
+        },
+        {
+          "label": "Hãng sản xuất",
+          "value": "ESR",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "5427",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Pin & công nghệ sạc",
+          "value": [
+            {
+              "label": "Pin",
+              "value": "5 tuần (3 lần/tuần)",
+              "key": "battery",
+              "label_url": "https://cellphones.com.vn/sforum/mah-la-gi-don-vi-mah-la-gi"
+            }
+          ]
+        },
+        {
+          "label": "Kích thước & Trọng lượng",
+          "value": [
+            {
+              "label": "Kích thước",
+              "value": "70 x 70 x 66.5 mm",
+              "key": "dimensions",
+              "label_url": null
+            },
+            {
+              "label": "Trọng lượng",
+              "value": "152 g",
+              "key": "product_weight",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Mipow",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Pin",
+          "value": "5 tuần (3 lần/tuần)",
+          "key": "battery",
+          "label_url": "https://cellphones.com.vn/sforum/mah-la-gi-don-vi-mah-la-gi"
+        },
+        {
+          "label": "Hãng sản xuất",
+          "value": "Mipow",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "8901",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Hãng khác",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Hãng khác",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "8902",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Hãng khác",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Hãng khác",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "8903",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Hãng khác",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Hãng khác",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "8904",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Hãng khác",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Hãng khác",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "8911",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Samsung Chính hãng",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Samsung Chính hãng",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "11655",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Kích thước & Trọng lượng",
+          "value": [
+            {
+              "label": "Kích thước",
+              "value": "175 x 110 x 110 mm",
+              "key": "dimensions",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Mipow",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Mipow",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "11656",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Kích thước & Trọng lượng",
+          "value": [
+            {
+              "label": "Kích thước",
+              "value": "175 x 110 x 110 mm",
+              "key": "dimensions",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Mipow",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Mipow",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "11657",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Kích thước & Trọng lượng",
+          "value": [
+            {
+              "label": "Kích thước",
+              "value": "175 x 110 x 110 mm",
+              "key": "dimensions",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Mipow",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Mipow",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "8905",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Hãng khác",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Hãng khác",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "8907",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Samsung Chính hãng",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Samsung Chính hãng",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "8908",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Samsung Chính hãng",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Samsung Chính hãng",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "8909",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Samsung Chính hãng",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Samsung Chính hãng",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "8910",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Samsung Chính hãng",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Samsung Chính hãng",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "74373",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Edifier",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Màn hình",
+          "value": [
+            {
+              "label": "Loại màn hình",
+              "value": "Màn hình",
+              "key": "may_anh_loai_man_hinh",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Edifier",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "75731",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin chung",
+          "value": [
+            {
+              "label": "Công suất ",
+              "value": "24W",
+              "key": "loa_cong_suat",
+              "label_url": null
+            },
+            {
+              "label": "Cấu tạo",
+              "value": "Mid-Bass 4 inch + Tweeter 0.5 inch",
+              "key": "loa_cau_tao",
+              "label_url": null
+            },
+            {
+              "label": "Tính năng khác",
+              "value": "Nhiều hiệu ứng âm thanh",
+              "key": "loa_tinh_nang_khac",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Điều khiển",
+          "value": [
+            {
+              "label": "Ứng dụng điều khiển",
+              "value": "Edifier Connect",
+              "key": "loa_ung_dung_ket_noi",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Kết nối & Điều khiển",
+          "value": [
+            {
+              "label": "Bluetooth",
+              "value": "5.4",
+              "key": "loa_bluetooth",
+              "label_url": null
+            },
+            {
+              "label": "Cổng kết nối ",
+              "value": "RCA x 2",
+              "key": "loa_cong_ket_noi",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Kích thước & Trọng lượng",
+          "value": [
+            {
+              "label": "Kích thước",
+              "value": "40 x 226 x 197 mm (mỗi loa)",
+              "key": "dimensions",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Edifier",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Màn hình",
+          "value": [
+            {
+              "label": "Loại màn hình",
+              "value": "Màn hình",
+              "key": "may_anh_loai_man_hinh",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Công suất ",
+          "value": "24W",
+          "key": "loa_cong_suat",
+          "label_url": null
+        },
+        {
+          "label": "Cấu tạo",
+          "value": "Mid-Bass 4 inch + Tweeter 0.5 inch",
+          "key": "loa_cau_tao",
+          "label_url": null
+        },
+        {
+          "label": "Tính năng khác",
+          "value": "Nhiều hiệu ứng âm thanh",
+          "key": "loa_tinh_nang_khac",
+          "label_url": null
+        },
+        {
+          "label": "Cổng kết nối ",
+          "value": "RCA x 2",
+          "key": "loa_cong_ket_noi",
+          "label_url": null
+        },
+        {
+          "label": "Hãng sản xuất",
+          "value": "Edifier",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "75781",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Edifier",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Màn hình",
+          "value": [
+            {
+              "label": "Loại màn hình",
+              "value": "Màn hình",
+              "key": "may_anh_loai_man_hinh",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Edifier",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "54101",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "OPPO",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "OPPO",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "73921",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Xiaomi",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Màn hình",
+          "value": [
+            {
+              "label": "Loại màn hình",
+              "value": "Màn hình",
+              "key": "may_anh_loai_man_hinh",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Xiaomi",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "74366",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Edifier",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Màn hình",
+          "value": [
+            {
+              "label": "Loại màn hình",
+              "value": "Màn hình",
+              "key": "may_anh_loai_man_hinh",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Edifier",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "74367",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Edifier",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Màn hình",
+          "value": [
+            {
+              "label": "Loại màn hình",
+              "value": "Màn hình",
+              "key": "may_anh_loai_man_hinh",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Edifier",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "74369",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Edifier",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Màn hình",
+          "value": [
+            {
+              "label": "Loại màn hình",
+              "value": "Màn hình",
+              "key": "may_anh_loai_man_hinh",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Edifier",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "75727",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Edifier",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Màn hình",
+          "value": [
+            {
+              "label": "Loại màn hình",
+              "value": "Màn hình",
+              "key": "may_anh_loai_man_hinh",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Edifier",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "75795",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Edifier",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Màn hình",
+          "value": [
+            {
+              "label": "Loại màn hình",
+              "value": "Màn hình",
+              "key": "may_anh_loai_man_hinh",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Edifier",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "73144",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "JBL",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Màn hình",
+          "value": [
+            {
+              "label": "Loại màn hình",
+              "value": "Màn hình",
+              "key": "may_anh_loai_man_hinh",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "JBL",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "73145",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "JBL",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Màn hình",
+          "value": [
+            {
+              "label": "Loại màn hình",
+              "value": "Màn hình",
+              "key": "may_anh_loai_man_hinh",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "JBL",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "73907",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Soundpeats",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Màn hình",
+          "value": [
+            {
+              "label": "Loại màn hình",
+              "value": "Màn hình",
+              "key": "may_anh_loai_man_hinh",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Soundpeats",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "73909",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Soundpeats",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Màn hình",
+          "value": [
+            {
+              "label": "Loại màn hình",
+              "value": "Màn hình",
+              "key": "may_anh_loai_man_hinh",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Soundpeats",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "73912",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Soundpeats",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Màn hình",
+          "value": [
+            {
+              "label": "Loại màn hình",
+              "value": "Màn hình",
+              "key": "may_anh_loai_man_hinh",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Soundpeats",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "73913",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Soundpeats",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Màn hình",
+          "value": [
+            {
+              "label": "Loại màn hình",
+              "value": "Màn hình",
+              "key": "may_anh_loai_man_hinh",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Soundpeats",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.spec",
+    "_type": "_doc",
+    "_id": "73914",
+    "_score": 1.0,
+    "_source": {
+      "full_by_group": [
+        {
+          "label": "Thông tin hãng",
+          "value": [
+            {
+              "label": "Hãng sản xuất",
+              "value": "Soundpeats",
+              "key": "phone_accessory_brands",
+              "label_url": null
+            }
+          ]
+        },
+        {
+          "label": "Màn hình",
+          "value": [
+            {
+              "label": "Loại màn hình",
+              "value": "Màn hình",
+              "key": "may_anh_loai_man_hinh",
+              "label_url": null
+            }
+          ]
+        }
+      ],
+      "basic": [
+        {
+          "label": "Hãng sản xuất",
+          "value": "Soundpeats",
+          "key": "phone_accessory_brands",
+          "label_url": null
+        }
+      ]
+    }
+  }
+]

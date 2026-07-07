@@ -1,0 +1,459 @@
+[
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-133962",
+    "_score": 1.6835427,
+    "_ignored": ["promotion_pack.keyword"],
+    "_source": {
+      "name": "Máy ảnh kỹ thuật số Canon EOS 4000D - Chưa Kích Hoạt"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-134487",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Flycam DJI dân dụng Avata 360 (Body Only) - chính hãng"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-134479",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Flycam DJI dân dụng Lito X1 Fly More Combo (RC-N3) - chính hãng"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-134473",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Flycam DJI dân dụng Mini 3 Fly More Combo Plus (DJI RC-N1) - chính hãng"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-134471",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Flycam DJI dân dụng Mini 3 Fly More Combo Plus (DJI RC) - chính hãng"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-129162",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Loa JBL Partybox Stage 330"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-134656",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Quạt cầm tay mini sò lạnh Magic A-014"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-131758",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Máy hút bụi lau nhà cầm tay Dreame H16 GT"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-132020",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Kính lọc B+W Master Clear MRC Nano 55mm"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-130986",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Túi hành lý Jansport (Usa) Weekender Medium Duffel 40l"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-126030",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Samsung Galaxy A37 8GB 256GB"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-126029",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Samsung Galaxy A37 6GB 128GB"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-128167",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Lenovo Legion Tab Gen 5 12GB 256GB ZAH20093VN"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-127706",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "HONOR 600 5G 12GB 256GB"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-127705",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "HONOR 600 Pro 5G 12GB 256GB"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-127701",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Tecno Pova Curve 2 5G 8GB 128GB"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-127781",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Bàn phím cơ không dây AULA S98 Pro Xanh Dương Trắng Tím Đậm"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-127765",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Camon Slim 4G 8GB 256GB"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-129908",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Máy tạo ẩm xông tinh dầu khử khuẩn UV FujiHome HM09UV2"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-126485",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "HONOR 600 Lite"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-127304",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Ốp lưng iPhone 17 Pro Max Pitaka Edge Monogram Leaping"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-121953",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Xiaomi Pad 8 Pro 12GB 256GB"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-121940",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Ốp lưng iPhone 17 Pro Pitaka Ultra Slim Monogram"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-121633",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "HONOR Power 2"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-121434",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Xiaomi 17 5G"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-121504",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "OPPO Pad SE"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-49772",
+    "_score": 1.6835427,
+    "_ignored": ["short_description.value.keyword", "promotion_pack.keyword"],
+    "_source": {
+      "name": "Surface Laptop 4 13.5 inch"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-121088",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Máy ảnh Leica Q3 43"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-120769",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Đồng hồ thông minh Huawei Watch GT 6 dây cao su - Đã Kích Hoạt-Xám"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-124255",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "OPPO Find X10 Pro"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-124254",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "OPPO Find X10"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-122539",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "TECNO Pova 8 8GB 256GB "
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-123032",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Túi đeo chéo Tomtoc (USA) Crossbody Edc Sling Bag 14 Inch T24M1K1"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-122945",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "TECNO Spark Go 3"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-45438",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "tester"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-118070",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "HONOR Play 10 3GB 64GB "
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-117971",
+    "_score": 1.6835427,
+    "_ignored": ["promotion_pack.keyword"],
+    "_source": {
+      "name": "MacBook Pro 14 M4 Pro 12CPU 16GPU 48GB 512GB | Chính hãng Apple Việt Nam"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-117849",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Camera thang máy 4MP Dahua có tiếng kèm đầu ghi"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-117846",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Camera thang máy 2MP Dahua có tiếng"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-120329",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Ốp lưng Samsung Galaxy S24 Ultra Zagg Santa Milan"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-120291",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Ốp lưng iPhone 16 Pro Zagg Santa Cruz With Magsafe Black"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-60004",
+    "_score": 1.6835427,
+    "_ignored": ["short_description.value.keyword"],
+    "_source": {
+      "name": "Đồng hồ thông minh COROS APEX 3"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-60003",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Đồng hồ thông minh Huawei Watch GT 5-Đen"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-60000",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Sạc dự phòng Anker PowerCore III 10K A1247"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-59997",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Asus Vivowatch 5-Đen/Cam"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-59994",
+    "_score": 1.6835427,
+    "_ignored": ["short_description.value.keyword"],
+    "_source": {
+      "name": "Đồng hồ thông minh Huawei Watch GT 3 SE"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-59977",
+    "_score": 1.6835427,
+    "_ignored": ["short_description.value.keyword"],
+    "_source": {
+      "name": "Đồng hồ thông minh Garmin Venu SQ 3"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-59875",
+    "_score": 1.6835427,
+    "_ignored": ["short_description.value.keyword"],
+    "_source": {
+      "name": "Laptop Lenovo Ideapad 5 15ABA7 82SG007KVN"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-59466",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Đồng hồ thông minh Garmin Forerunner 965 -Đen"
+    }
+  },
+  {
+    "_index": "prod.v2.ecom.product.filteregion",
+    "_type": "_doc",
+    "_id": "30-59372",
+    "_score": 1.6835427,
+    "_source": {
+      "name": "Laptop Dell Latitude E5470"
+    }
+  }
+]
