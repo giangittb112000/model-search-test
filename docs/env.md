@@ -85,7 +85,7 @@ NER_GPU_ALLOCATOR=null
 
 Stack Docker hiện tại: **NVIDIA + CUDA**. AMD/Intel/Mac GPU → giữ `NER_TRAIN_MODE=cpu`, `NER_RUN_MODE=cpu`.
 
-Image mặc định luôn cài CuPy CUDA 12 (`cupy-cuda12x`) để có thể train GPU khi `.env` bật `NER_TRAIN_MODE=gpu`.
+Image mặc định luôn cài CuPy CUDA 12 (`cupy-cuda12x`, major 12) để tương thích với spaCy/Thinc khi `.env` bật `NER_TRAIN_MODE=gpu`.
 
 ## Docker GPU
 

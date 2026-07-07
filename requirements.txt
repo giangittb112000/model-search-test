@@ -3,4 +3,4 @@
 spacy>=3.7,<4.0
 click>=8.0
 pyvi>=0.1.1
-cupy-cuda12x>=13.0,<14.0
+cupy-cuda12x>=12.0,<13.0

@@ -89,7 +89,7 @@ test-predict: require-env up-predict
 	$(RUN) python src/test_predict.py
 
 check-gpu: require-env up
-	$(RUN) python -c "import cupy; print('CuPy', cupy.__version__); print('CUDA devices', cupy.cuda.runtime.getDeviceCount())"
+	$(RUN) python -c "import cupy, cupy.cuda.cublas, thinc.compat as c; print('CuPy', cupy.__version__); print('CUDA devices', cupy.cuda.runtime.getDeviceCount()); print('has_cupy', c.has_cupy); print('has_gpu', c.has_gpu)"
 
 shell: require-env up
 	$(RUN) bash
