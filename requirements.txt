@@ -1,6 +1,5 @@
 # Thư viện: spacy (train/predict), click (CLI spaCy)
 # pyvi có trong image nhưng preprocess dùng use_pyvi=false (tokenize theo space)
-spacy>=3.7,<4.0
+spacy[cuda12x]>=3.7,<4.0
 click>=8.0
 pyvi>=0.1.1
-cupy-cuda12x>=12.0,<13.0
