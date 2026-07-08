@@ -55,6 +55,42 @@ make check-gpu
 
 ---
 
+## Log tài nguyên khi train
+
+Sau `make train`, script in thêm block `RESOURCE USAGE` để xem lần train vừa rồi dùng bao nhiêu CPU/RAM/GPU.
+
+```text
+╭────────────────────────────────────────────────────╮
+│ RESOURCE USAGE                                     │
+├────────────────────────────────────────────────────┤
+│ CPU available    8 cores                           │
+│ CPU avg          1.25 cores (15.6%)                │
+│ CPU peak         2.40 cores (30.0%)                │
+│ RAM peak         720.0 / 4096 MB (17.6%)           │
+│ VRAM base        320 MB                            │
+│ VRAM peak        2100 / 8192 MB                    │
+│ VRAM delta       1780 MB                           │
+│ GPU util avg     35.4%                             │
+│ GPU util peak    82%                               │
+╰────────────────────────────────────────────────────╯
+```
+
+| Chỉ số | Ý nghĩa |
+| ------ | ------- |
+| `CPU available` | Số CPU core container có thể dùng. Nếu Docker bị giới hạn CPU thì số này là quota, không nhất thiết bằng toàn bộ core của VPS. |
+| `CPU avg` | Trung bình trong cả quá trình train dùng bao nhiêu core. Ví dụ `1.25 cores (15.6%)` nghĩa là trung bình chỉ dùng khoảng 1.25/8 core. |
+| `CPU peak` | Mức CPU cao nhất bắt được trong lúc train. Nếu gần 100% lâu dài thì CPU đang là nút thắt. |
+| `RAM peak` | RAM cao nhất process train dùng. Nếu có dạng `720 / 4096 MB` thì vế sau là RAM limit/total đọc được trong container. |
+| `VRAM base` | VRAM đã dùng ở thời điểm bắt đầu đo. Có thể gồm CUDA context hoặc process khác đang dùng GPU. |
+| `VRAM peak` | VRAM cao nhất trong lúc train, kèm tổng VRAM GPU. Dùng để chọn card có đủ VRAM. |
+| `VRAM delta` | Phần VRAM tăng thêm do lần train này so với baseline. |
+| `GPU util avg` | Mức sử dụng GPU trung bình. Thấp nghĩa là GPU thường phải chờ CPU/data/model quá nhỏ. |
+| `GPU util peak` | Mức sử dụng GPU cao nhất bắt được. |
+
+Gợi ý đọc nhanh: nếu `GPU util avg` thấp nhưng `CPU avg/peak` cao, nên tăng CPU hoặc tối ưu pipeline data; nếu `VRAM peak` sát tổng VRAM thì cần giảm batch/config hoặc dùng GPU nhiều VRAM hơn; nếu cả CPU/GPU đều thấp thì bài toán/model hiện tại có thể quá nhỏ nên GPU không nhanh hơn CPU nhiều.
+
+---
+
 ## Lỗi thường gặp
 
 | Lỗi | Cách xử lý |
